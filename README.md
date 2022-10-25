@@ -1,9 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ProjectName
+# Math-Magicians
+
+## Description
+This Project consists of building a web-based Calculator that can perform all sorts of calculations.
 
 ## Built With
-
+- React.js
+- css
 ## Live Demo
 
 Will be update when availabl! [Live Demo]()
