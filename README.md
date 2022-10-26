@@ -10,7 +10,7 @@ This Project consists of building a web-based Calculator that can perform all so
 - css
 ## Live Demo
 
-Will be update when availabl! [Live Demo]()
+Live Demo is up and running check it out [Here!](https://rebaz36.github.io/Math-Magicians/)
 
 # Getting Started with React App
 
