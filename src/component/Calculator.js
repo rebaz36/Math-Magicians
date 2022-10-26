@@ -11,8 +11,6 @@ export default function Calculator() {
   });
 
   const handleClick = (e) => {
-    // const result = calculate(this.state, e.target.textContent);
-    // this.setState(result);
     setState((state) => calculate(state, e.target.textContent));
   };
 
