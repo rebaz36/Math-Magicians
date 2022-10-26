@@ -27,7 +27,7 @@ export default class Calculator extends React.Component {
           <div className="input-keys">
             <div className="function-keys">
               <button onClick={this.handleClick} type="button" className="calculator-key key-clear">AC</button>
-              <button onClick={this.handleClick} type="button" className="calculator-key key-sign">+/-</button>
+              <button onClick={this.handleClick} type="button" className="calculator-key key-sign">±</button>
               <button onClick={this.handleClick} type="button" className="calculator-key key-percent">%</button>
             </div>
             <div className="digit-keys">
