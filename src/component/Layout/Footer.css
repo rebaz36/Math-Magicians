@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #9f846a;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer__link {
+  font-weight: 700;
+}
+
+.footer__link:hover {
+  color: #392917;
+}

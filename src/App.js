@@ -1,12 +1,23 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Calculator from './component/Calculator';
-import './App.css';
+import {
+  BrowserRouter as Router, Routes, Route,
+} from 'react-router-dom';
+import Calculator from './pages/Calculator/Calculator';
+import Home from './pages/Home/Home';
+import Quote from './pages/Qoute/Quote';
+import NavBar from './component/Layout/NavBar';
+import Footer from './component/Layout/Footer';
 
 export default function App() {
   return (
-    <div className="App">
-      <Calculator />
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/Quote" element={<Quote />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }

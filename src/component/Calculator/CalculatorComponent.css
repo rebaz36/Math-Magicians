@@ -7,6 +7,9 @@
   font-family: sans-serif;
   font-size: 2rem;
   font-weight: 700;
+  box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .calculator-display {
@@ -15,17 +18,25 @@
   justify-content: flex-end;
   display: flex;
   align-items: center;
-  background-color: grey;
+  background-color: white;
   padding: 10px;
+  border: 1px solid #402917;
 }
 
 .calculator-key {
   width: 100px;
   height: 70px;
-  background-color: #fff;
+  background-color: #9f846a;
   font-family: sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+.calculator-key:hover {
+  background-color: white;
+  font-weight: 700;
+  scale: 1.2;
 }
 
 .calculator-keypad {
@@ -59,7 +70,15 @@
 }
 
 .orange-key {
-  background-color: orange;
+  background-color: #392917;
+  color: #fff;
+  font-weight: 700;
+}
+
+.orange-key:hover {
+  background-color: white;
+  font-weight: 700;
+  scale: 1.2;
 }
 
 .key-dot {

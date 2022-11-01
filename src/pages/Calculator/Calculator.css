@@ -1,0 +1,34 @@
+.Calculator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: scroll;
+}
+
+.calculator-sidebar {
+  width: 60%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  width: 40%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-bar-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #392917;
+}
+
+.side-bar-title:hover {
+  color: #9f846a;
+}
