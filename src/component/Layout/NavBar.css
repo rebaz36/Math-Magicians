@@ -1,9 +1,13 @@
 .Navbar-Container {
   font-size: 1.5em;
   width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #9f846a;
 }
 
 .Navbar-Links {
@@ -11,4 +15,23 @@
   flex-direction: row;
   justify-content: space-around;
   width: 30%;
+  font-weight: bold;
+  color: #392917;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Nav-Item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Nav-Item:hover {
+  background-color: #392917;
+  color: white;
+  box-shadow: 0 0 15px #392917;
 }
