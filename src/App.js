@@ -1,12 +1,16 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Calculator from './component/Calculator';
-import './App.css';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Calculator from './component/Calculator';
+import Layout from './component/Layout/Layout';
 
 export default function App() {
   return (
-    <div className="App">
-      <Calculator />
-    </div>
+    // <Router>
+    //   <Switch>
+    //     <Route exact path="/" component={Calculator} />
+    //   </Switch>
+    // </Router>
+    <Layout />
   );
 }
