@@ -1,16 +1,34 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 import './NavBar.css';
 
 export default function NavBar() {
   return (
     <div className="Navbar-Container">
       <div className="Navbar-Logo">
-        <img src="../../../public/favicon.ico" alt="logo" />
+        <img
+          style={{
+            width: '350px',
+            height: '70px',
+            border: '1px solid black',
+            borderRadius: '10px',
+            backgroundColor: '#fff',
+          }}
+          src={logo}
+          alt="logo"
+        />
       </div>
       <div className="Navbar-Links">
-        <a href="/">Home</a>
-        <a href="/calculator">Calculator</a>
-        <a href="/quote">Quote</a>
+        <Link className="Nav-Item" to="/">
+          Home
+        </Link>
+        <Link className="Nav-Item" to="/calculator">
+          Calculator
+        </Link>
+        <Link className="Nav-Item" to="/quote">
+          Quote
+        </Link>
       </div>
     </div>
   );
