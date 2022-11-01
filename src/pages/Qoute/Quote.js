@@ -1,5 +1,6 @@
+/* eslint-disable import/extensions */
 import React, { useState } from 'react';
-import GetQuotes from './QuoteData';
+import GetQuotes from './QuoteData.js';
 import './Quote.css';
 
 export default function Quote() {

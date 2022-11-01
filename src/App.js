@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import Calculator from './pages/Calculator/Calculator';
 import Home from './pages/Home/Home';
-import Quote from './pages/Quote/Quote';
+import Quote from './pages/Qoute/Quote';
 import NavBar from './component/Layout/NavBar';
 import Footer from './component/Layout/Footer';
 
