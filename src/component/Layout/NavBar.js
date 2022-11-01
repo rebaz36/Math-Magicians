@@ -26,7 +26,7 @@ export default function NavBar() {
         <Link className="Nav-Item" to="/calculator">
           Calculator
         </Link>
-        <Link className="Nav-Item" to="/quote">
+        <Link className="Nav-Item" to="/Quote">
           Quote
         </Link>
       </div>

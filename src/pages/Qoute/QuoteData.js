@@ -1,12 +1,10 @@
-const QouteData = [
+const QuoteData = [
   {
-    quote:
-      'Life isn’t about getting and having, it’s about giving and being.',
+    quote: 'Life isn’t about getting and having, it’s about giving and being.',
     author: 'Kevin Kruse',
   },
   {
-    quote:
-      'Whatever the mind of man can conceive and believe, it can achieve.',
+    quote: 'Whatever the mind of man can conceive and believe, it can achieve.',
     author: 'Napoleon Hill',
   },
   {
@@ -41,18 +39,15 @@ const QouteData = [
     author: 'Babe Ruth',
   },
   {
-    quote:
-      'Definiteness of purpose is the starting point of all achievement.',
+    quote: 'Definiteness of purpose is the starting point of all achievement.',
     author: 'W. Clement Stone',
   },
   {
-    quote:
-      'We must balance conspicuous consumption with conscious capitalism.',
+    quote: 'We must balance conspicuous consumption with conscious capitalism.',
     author: 'Kevin Kruse',
   },
   {
-    quote:
-      'Life is what happens to you while you’re busy making other plans.',
+    quote: 'Life is what happens to you while you’re busy making other plans.',
     author: 'John Lennon',
   },
   {
@@ -390,8 +385,7 @@ const QouteData = [
     author: 'Dalai Lama',
   },
   {
-    quote:
-      'You can’t use up creativity.  The more you use, the more you have.',
+    quote: 'You can’t use up creativity.  The more you use, the more you have.',
     author: 'Maya Angelou',
   },
   {
@@ -472,12 +466,12 @@ const QouteData = [
   },
 ];
 
-export default class GetQoutes {
+export default class GetQuotes {
   constructor() {
-    this.qoute = QouteData;
+    this.Quote = QuoteData;
   }
 
-  getRandomQoute() {
-    return this.qoute[Math.floor(Math.random() * this.qoute.length)];
+  getRandomQuote() {
+    return this.Quote[Math.floor(Math.random() * this.Quote.length)];
   }
 }

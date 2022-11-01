@@ -1,4 +1,4 @@
-.Qoute-Container {
+.Quote-Container {
   width: 100%;
   height: 90vh;
   display: flex;
@@ -7,7 +7,7 @@
   place-items: center;
 }
 
-.Qoute-content {
+.Quote-content {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -19,13 +19,13 @@
   box-shadow: 10px 15px 20px 5px #9f846a;
 }
 
-.Qoute-Title {
+.Quote-Title {
   font-size: 3rem;
   font-weight: 900;
   color: #9f846a;
 }
 
-.Qoute-Des {
+.Quote-Des {
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 10px 5px 20px #9f846a;
@@ -33,13 +33,13 @@
   padding: 20px 40px;
 }
 
-.Qoute-Des:hover {
+.Quote-Des:hover {
   text-shadow: 10px 10px 10px #9f846a;
   color: white;
   padding: 20px 40px;
 }
 
-.Qoute-Author {
+.Quote-Author {
   font-size: 1.5rem;
   font-weight: 300;
   color: #9f8450;
@@ -54,7 +54,7 @@
   place-items: center;
 }
 
-.Qoute-btn {
+.Quote-btn {
   width: 100px;
   height: 50px;
   background-color: #392917;
