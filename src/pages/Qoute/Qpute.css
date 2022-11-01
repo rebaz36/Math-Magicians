@@ -1,0 +1,68 @@
+.Qoute-Container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+.Qoute-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  background-color: #392917;
+  border-radius: 40px;
+  box-shadow: 10px 15px 20px 5px #9f846a;
+}
+
+.Qoute-Title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #9f846a;
+}
+
+.Qoute-Des {
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 10px 5px 20px #9f846a;
+  color: white;
+  padding: 20px 40px;
+}
+
+.Qoute-Des:hover {
+  text-shadow: 10px 10px 10px #9f846a;
+  color: white;
+  padding: 20px 40px;
+}
+
+.Qoute-Author {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #9f8450;
+}
+
+.info-container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  place-items: center;
+}
+
+.Qoute-btn {
+  width: 100px;
+  height: 50px;
+  background-color: #392917;
+  border: 2px solid #9f846a;
+  border-radius: 20px;
+  color: #9f846a;
+  font-size: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.5s;
+}
