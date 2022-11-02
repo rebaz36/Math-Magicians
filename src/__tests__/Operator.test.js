@@ -6,7 +6,7 @@ describe('Operate Function Direct Calls', () => {
   });
 
   test('Multiplication', () => {
-    expect(operate(27, 6, '*')).toBe('162');
+    expect(operate(27, 6, 'x')).toBe('162');
   });
 
   test('Subtraction', () => {
@@ -14,7 +14,7 @@ describe('Operate Function Direct Calls', () => {
   });
 
   test('Division', () => {
-    expect(operate(2580, 5, '/')).toBe('516');
+    expect(operate(2580, 5, '÷')).toBe('516');
   });
 
   test('Modulus', () => {
